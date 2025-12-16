@@ -2,3 +2,12 @@ body {
   background-color: rgb(209, 166, 180);
   color: rgb(255, 255, 255);
 }
+.icon {
+  fill: aliceblue;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: visible;
+  margin-right: 10px;
+}
