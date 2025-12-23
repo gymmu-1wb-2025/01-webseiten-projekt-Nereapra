@@ -7,35 +7,81 @@
     <title>Eigene Webseite</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
   </head>
 
   <body>
     <header>
-      <h1>Webseite von ...</h1>
+      <h1>Visit Japan</h1>
     </header>
 
-    <main>
-      <section>
-        <h2>Dies ist ein erster Abschnitt</h2>
-        Abschnitte haben immer einen Titel und dann den Text.
-      </section>
 
       <section>
-        <h2>Das p-Tag</h2>
-        <p>Der Text sollte immer in ein p gepackt werden.</p>
-        <p>Mit dem p ist es auch möglich einen Zeilenumbruch zu haben.</p>
+        <h2>Wilkommen auf meiner Website </h2>
+        Hallo und herzlich Wilkommen auf meiner Website. Ich nehme euch mit auf
+        eine kleine Reise nach Japan. Hier erfahrt ihr etwas über das Land,
+        seine Traditionen, das leckere Essen und berühmte Sehenswürdigkeiten.
+        Viel Spass!
       </section>
 
-      <section>
-        <h2>Unterseiten verlinken</h2>
-        <p>
-          Wir können auch weitere Webseiten verknüpfen, dafür müssen wir nur
-          einen Link angeben, wie zum Beispiel zu den
-          <a href="./unterseiten/hobbies.html">Hobbies</a>.
+      <img
+        src="https://th.bing.com/th/id/OIP.cRTUo9uXcFe0PAZVaKdBswHaE8?w=272&h=181&c=7&r=0&o=7&cb=ucfimg2&dpr=2&pid=1.7&rm=3&ucfimg=1"
+        alt="Japan Bild"
+      >
+      <p>
+        <svg class="icon" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+       <circle cx="6" cy="6" r="5"></circle>
+        </svg>
+        <a href="./unterseiten/Kultur.html">Kultur</a>
         </p>
+        <p>
+        <svg class="icon" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+      <rect x="1" y="1" width="10" height="10"></rect>
+      </svg>
+      <a href="./unterseiten/Essen.html">Essen</a>
+
+    </p>
+    <p>
+      <svg class="icon" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+      <ellipse cx="6" cy="6" rx="5" ry="3"></ellipse>
+      <circle cx="6" cy="6" r="1.5"></circle>
+      </svg>
+      <a href="./unterseiten/Sehenswürdigkeiten.html">Sehenswürdigkeiten</a>
+    </p>
+    <section id="colors">
+      <h2>Farben anpassen</h2>
+      <p>Wählen sie eine dieser Farben als Basis für die Website</p>
+      <ul class="color-list">
+      <li class="svg-rosa" onclick="changeColor('#b25987')">
+        <svg  viewBox="0 0 10 10" width="1.5em">
+        <circle cx="5" cy="5" r="5"/>
+        </svg>
+        <span>rosa</span>
+
+        </li>
+        <li class="svg-pink" onclick="changeColor('pink')">
+        <svg viewBox="0 0 10 10" width="1.5em">
+          <circle cx="5" cy="5" r="5"/>
+        </svg>
+        <span>pink</span>
+        </li>
+      </ul>
+    </section>
+
+
+      <section>
+        <h2>Quellen</h2>
+        <ul>
+          <li>
+            https://www.tripadvisor.ch/Attractions-g298184-Activities-Tokyo_Tokyo_Prefecture_Kanto.html
+          </li>
+          <li>https://www.japanwelt.de/blog/japan-schoenste-orte-top-10</li>
+          <li>https://www.mamanihon.de/japanische-gerichte/</li>
+          <li>https://www.mamanihon.de/japanische-gerichte/</li>
+        </ul>
       </section>
     </main>
 
-    <footer>Meine Webseite</footer>
+    <footer>Website von Nerea</footer>
   </body>
 </html>
